@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "inlineSources": false,
+    // Needed for project references.
+    "composite": false,
+    "declaration": false
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
